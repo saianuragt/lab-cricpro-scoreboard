@@ -1,16 +1,90 @@
 /* Type your code here */
+body {
+	background-image: url("./assets/background-image1.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-position-x: 480px;
+	background-position-y: 200px;
+}
 
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+.logo {
+	display: flex;
+	flex-direction: row-reverse;
+	margin-right: 275px;
+	margin-top: 20px;
+}
+
+.heading {
+	margin-left: 80px;
+}
+
+.h1 {
+	font-size: 250%;
+	font-weight: bold;
+}
+
+.h2 {
+	color: grey;
+}
+
+.table {
+	margin-left: 80px;
+}
+
+table {
+	width: 60%;
+	text-align: left;
+	font-size: 1.3em;
+	margin-left: 30 px;
+	background-color: white;
+	border-spacing: 0;
+}
+
+th,
+td {
+	border-bottom: 1.5px solid lightgrey;
+	padding: 5px;
+}
+
+th {
+	background-color: orangered;
+	color: white;
+}
+
+#a {
+	padding: 3px;
+}
+
+#bowler {
+	justify-content: center;
+	text-decoration: gray;
+}
+
+#scr {
+	text-align: right;
+}
+
+#tr9,
+#tr10,
+#tr11 {
+	padding: 5px;
+	padding-top: 15px;
+}
 
 /* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-content: flex-end;
+	position: fixed;
+	top: 680px;
 	margin-left: 80px;
 	font-size: 18px;
 	font-family: Nunito Sans;
-    font-style: normal;
-    
+	font-style: normal;
 }
